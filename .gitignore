@@ -1,0 +1,29 @@
+# Test files (not needed for deployment)
+test_predictions.py
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (generated at runtime)
+models/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
